@@ -7,7 +7,7 @@ let tectonicPlatesUrl = "https://raw.githubusercontent.com/fraxen/tectonicplates
 // Creating a Leaflet map
 let myMap = L.map("map").setView([37.09, -95.71], 5);
 
-// Defining tile layers for satellite, greyscale, and outdoors maps
+// Defining tile layers for satellite, terrain, and outdoors maps
 let satelliteLayer = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "&copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors"
 });
